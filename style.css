@@ -11,12 +11,9 @@
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  background-image: linear-gradient(
-      rgba(82, 197, 82, 0.514),
-      rgba(172, 255, 47, 0.637)
-    ),
-    url("./image/y.jpg");
-  background-size: contain;
+  background-image: linear-gradient( rgba(82, 197, 82, 0.514),rgba(172, 255, 47, 0.637)), url("./image/y.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .signup {
   box-shadow: 5px 5px 5px 6px rgba(255, 255, 255, 0.233);
@@ -34,7 +31,6 @@
   text-align: center;
 }
 form {
- 
   padding-left: 0.5rem;
 }
 .label {
@@ -52,11 +48,11 @@ form {
   width: 100%;
 }
 #email {
-  margin-left: 5.75rem;
+  margin-left: 5.8rem;
 }
 #firstname,
 #lastname {
-  margin-left: 3.8125rem;
+  margin-left: 3.92rem;
 }
 #pwd {
   margin-left: 4.375rem;
@@ -92,11 +88,7 @@ form {
   .label + .label {
     margin-top: 40px;
   }
-  #email,
-  #pwd,
-  #firstname,
-  #lastname,
-  #checkpwd {
+  #email,#pwd,#firstname,#lastname,#checkpwd {
     margin-left: 0;
   }
   .btn {
